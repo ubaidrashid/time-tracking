@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="gridContainer">
+    <div class="box1">
+      <div class="profile">
+        <img src="assets/images/image-jeremy.png" alt="" class="profileImg" />
+        <div class="mainNameCover">
+          <p>Report for</p>
+          <h1 class="name">Jeremy Robson</h1>
+        </div>
+      </div>
+      <div class="durations">
+        <div class="daily">Daily</div>
+        <div class="weekly">Weekly</div>
+        <div class="monthly">Monthly</div>
+      </div>
+    </div>
+    <div class="box2">
+      <div class="img">
+        <img src="assets/images/icon-work.svg" alt="" />
+      </div>
+      <div class="content">
+        <div class="content-head">
+          <div class="title">Work</div>
+          <div class="icon">
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+        </div>
+        <div class="headandPCover">
+          <h1 class="contentHeading">32hrs</h1>
+          <p class="lastedP">
+            <span class="lastDuration">Last Week - 36hrs</span>
+            <!-- <span class="lastHour">36hrs</span> -->
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="box3">
+      <div class="img">
+        <img src="assets/images/icon-play.svg" alt="" />
+      </div>
+      <div class="content">
+        <div class="content-head">
+          <div class="title">Play</div>
+          <div class="icon">
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+        </div>
+
+        <div class="headandPCover">
+
+          <h1 class="contentHeading">10hrs</h1>
+          <p class="lastedP">
+            <span class="lastDuration">Last Week - 8hrs</span>
+            <!-- <span class="lastHour">8hrs</span> -->
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="box4">
+      <div class="img">
+        <img src="assets/images/icon-study.svg" alt="" />
+      </div>
+      <div class="content">
+        <div class="content-head">
+          <div class="title">Study</div>
+          <div class="icon">
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+        </div>
+        <div class="headandPCover">
+
+          <h1 class="contentHeading">4hrs</h1>
+          <p class="lastedP">
+            <span class="lastDuration">Last Week - 7hrs</span>
+            <!-- <span class="lastHour">7hrs</span> -->
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="box5">
+      <div class="img">
+        <img src="assets/images/icon-exercise.svg" alt="" />
+      </div>
+      <div class="content">
+        <div class="content-head">
+          <div class="title">Exercise</div>
+          <div class="icon">
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+        </div>
+        <div class="headandPCover">
+
+          <h1 class="contentHeading">4hrs</h1>
+          <p class="lastedP">
+            <span class="lastDuration">Last Week - 5hrs</span>
+            <!-- <span class="lastHour">5hrs</span> -->
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="box6">
+      <div class="img">
+        <img src="assets/images/icon-social.svg" alt="" />
+      </div>
+      <div class="content">
+        <div class="content-head">
+          <div class="title">Social</div>
+          <div class="icon">
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+        </div>
+        <div class="headandPCover">
+
+          <h1 class="contentHeading">5hrs</h1>
+          <p class="lastedP">
+            <span class="lastDuration">Last Week - 10hrs</span>
+            <!-- <span class="lastHour">10hrs</span> -->
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="box7">
+      <div class="img">
+        <img src="assets/images/icon-self-care.svg" alt="" />
+      </div>
+      <div class="content">
+        <div class="content-head">
+          <div class="title">Self Care</div>
+          <div class="icon">
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+        </div>
+        <div class="headandPCover">
+
+          <h1 class="contentHeading">2hrs</h1>
+          <p class="lastedP">
+            <span class="lastDuration">Last Week - 2hrs</span>
+            <!-- <span class="lastHour">2hrs</span> -->
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5hrs
+    Previous - 7hrs
+    Previous -
+    103hrs
+    Previous - 128hrs
+    monthly -->
+
+  <!-- Play 1hr
+    Previous - 2hrs
+    10hrs
+    Previous - 8hrs
+    23hrs
+    Previous - 29hrs -->
+  <!-- 
+    Study 0hrs
+    Previous - 1hr
+    4hrs
+    Previous - 7hrs
+    13hrs
+    Previous - 19hrs -->
+
+  <!-- Exercise 1hr
+    Previous - 1hr
+    4hrs
+    Previous - 5hrs
+    11hrs
+    Previous - 18hrs -->
+  <!-- 
+    Social 1hr
+    Previous - 3hrs
+    5hrs
+    Previous - 10hrs
+    21hrs
+    Previous - 23hrs -->
+  <!-- 
+    Self Care 0hrs
+    Previous - 1hr
+    2hrs
+    Previous - 2hrs
+    7hrs
+    Previous - 11hrs -->
+
+  <!--   
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+<script src="assets/app.js"></script>
+</body>
+
+</html>
